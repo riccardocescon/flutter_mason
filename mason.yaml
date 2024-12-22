@@ -1,0 +1,4 @@
+bricks:
+  page_bloc:
+    path:
+      bricks/clean_architecture/page_bloc
