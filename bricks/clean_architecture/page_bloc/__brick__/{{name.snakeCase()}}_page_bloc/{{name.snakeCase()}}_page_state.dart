@@ -10,7 +10,7 @@ class {{name.pascalCase()}}PageState with _${{name.pascalCase()}}PageState, Equa
   const factory {{name.pascalCase()}}PageState.failure({required String message}) = _Failure;
 
   @override
-  List<Object?> get props => map(
+  List<Object?> get props => when(
         init: (_) => [],
         loading: (_) => [],
         ui: (value) => [],

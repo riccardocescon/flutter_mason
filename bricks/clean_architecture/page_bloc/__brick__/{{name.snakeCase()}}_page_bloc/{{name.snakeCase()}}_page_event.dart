@@ -7,7 +7,7 @@ class {{name.pascalCase()}}PageEvent with _${{name.pascalCase()}}PageEvent, Equa
   const factory {{name.pascalCase()}}PageEvent.setup() = _Setup;
 
   @override
-  List<Object?> get props => map(
+  List<Object?> get props => when(
         setup: (_) => [],
       );
 }
